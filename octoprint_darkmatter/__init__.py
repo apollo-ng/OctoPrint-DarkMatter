@@ -12,9 +12,9 @@ class DarkMatterPlugin(octoprint.plugin.AssetPlugin):
 			"css/overrides.css",
 			"css/overrides-icons.css"],
 			js=["js/octoprint-darkmatter.js"],
-			img=["noise.png",
-			"stripes.svg"],
-			fonts=["DIN.woff"]
+			img=["img/noise.png",
+			"img/stripes.svg"],
+			fonts=["fonts/DIN.woff"]
 	)
 
 

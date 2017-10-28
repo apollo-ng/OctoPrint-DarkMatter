@@ -1329,10 +1329,10 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar-inner {
-    background: #1f1e1a url(../img/stripes.svg) repeat;
-    color: #d8d3c5;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, .26), inset 0 0 42px 0 #000;
-    transition: box-shadow .2s;
+    background: #1f1e1a url(../img/stripes.svg) repeat !important;
+    color: #d8d3c5 !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .26), inset 0 0 42px 0 #000 !important;
+    transition: box-shadow .2s !important;
 }
 
 .navbar .brand {
