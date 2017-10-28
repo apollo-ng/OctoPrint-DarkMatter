@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "DIN";
+    src: url("../fonts/DIN.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-F000;
+}
+
 .hide-text {
 	color: transparent;
 	text-shadow: none;
@@ -13,6 +22,10 @@ a:focus {
 body {
 	color: #999999;
 	background-color: #060606;
+}
+
+.container {
+	width: 100%;
 }
 
 a {
@@ -1316,18 +1329,10 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar-inner {
-	background-color: #020202;
-	background-image: -moz-linear-gradient(top, #020202, #020202);
-	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#020202), to(#020202));
-	background-image: -webkit-linear-gradient(top, #020202, #020202);
-	background-image: -o-linear-gradient(top, #020202, #020202);
-	background-image: linear-gradient(to bottom, #020202, #020202);
-	background-repeat: repeat-x;
-	border: 1px solid #000000;
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff020202', endColorstr='#ff020202', GradientType=0);
-	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
-	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
-	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+    background: #1f1e1a url(../img/stripes.svg) repeat;
+    color: #d8d3c5;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .26), inset 0 0 42px 0 #000;
+    transition: box-shadow .2s;
 }
 
 .navbar .brand {
@@ -2237,7 +2242,9 @@ a.badge:focus {
 }
 
 .accordion-group {
-	border: 1px solid #e5e5e5;
+	border: 1px solid #2b2828;
+	border-radius: 0px !important;
+	margin-bottom: 0px;
 }
 
 .accordion-heading {
@@ -2343,7 +2350,11 @@ html {
 
 body {
 	min-height: 100%;
-	background-color: #1f1e1a;
+	background-color: #2f2e2a;
+	background: #2f2e2a; */
+	background: linear-gradient(to bottom, #2f2e2a 0%, #1f1e1a 100%);
+	background: -webkit-linear-gradient(top, #2f2e2a 0%, #1f1e1a 100%);
+	font-family: "DIN", Helvetica, Arial, sans-serif;
 }
 
 .page-header {
