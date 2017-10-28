@@ -7,7 +7,7 @@ plugin_package = "octoprint_darkmatter"
 
 plugin_name = "OctoPrint-DarkMatter"
 
-plugin_version = "0.1.0"
+plugin_version = "0.1.1"
 
 plugin_description = "DarkMatter theme adapted for octoprint."
 
