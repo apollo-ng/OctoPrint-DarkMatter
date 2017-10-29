@@ -1330,9 +1330,6 @@ input[type="submit"].btn.btn-mini {
     background: #1f1e1a url(../img/stripes.svg) repeat !important;
     color: #d8d3c5 !important;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .16), inset 0 0 36px 0 #000 !important;
-    transition: box-shadow .2s !important;
-	height: 48px;
-	line-height: 48px;
 }
 
 .navbar-inner .nav>li>a {
@@ -1344,6 +1341,9 @@ input[type="submit"].btn.btn-mini {
 	color: #d8d3c5 !important;
 	text-shadow: 0 1px 0 #1f1e1a !important;
 	padding: 14px 16px 1px !important;
+	width: 217px;
+    background: rgba(95, 115, 35, 0.26);
+    height: 30px;
 }
 
 .navbar .brand:hover,
@@ -2093,10 +2093,13 @@ a.badge:focus {
 
 .progress {
 	background: #1f1e1a url(../img/stripes.svg) repeat !important;
-	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-	-moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-	border-radius: 0;
+	-webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.8);
+	-moz-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.8);
+	box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.8), 0 0 4px rgba(0, 0, 0, 0.4);
+	border-radius: 0 !important;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	border: 1px solid #4f4e4a;
 }
 
 .progress .bar {
@@ -2637,7 +2640,8 @@ div.subnav-fixed {
 .tabbable .nav-tabs,
 .tabbable .nav-tabs li.active > a {
 	border-color: transparent !important;
-	background: #3f3e3a;
+	background: #2f2e2a url(../img/noise.png) repeat !important;
+	font-size: 16px;
 }
 
 .breadcrumb {
@@ -3156,6 +3160,10 @@ label {
 	border-left: none !important;
 	border-right: none !important;
 	border-bottom: none !important;
+}
+
+.octoprint-container .tab-content h1 {
+    color: #d8d3c5;
 }
 
 @media (max-width:768px) {
