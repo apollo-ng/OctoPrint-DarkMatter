@@ -25,7 +25,8 @@ body {
 }
 
 .container {
-	width: 100%;
+	width: 100% !important;
+	margin: 0 !important;
 }
 
 a {
@@ -1333,11 +1334,14 @@ input[type="submit"].btn.btn-mini {
     color: #d8d3c5 !important;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .26), inset 0 0 42px 0 #000 !important;
     transition: box-shadow .2s !important;
+	height: 48px;
+	line-height: 48px;
 }
 
 .navbar .brand {
-	color: #adafae;
-	text-shadow: 0 1px 0 #020202;
+	color: #d8d3c5 !important;
+	text-shadow: 0 1px 0 #1f1e1a !important;
+	padding: 14px 16px 1px !important;
 }
 
 .navbar .brand:hover,
@@ -2242,17 +2246,22 @@ a.badge:focus {
 }
 
 .accordion-group {
-	border: 1px solid #2b2828;
-	border-radius: 0px !important;
-	margin-bottom: 0px;
+    margin-bottom: 0px;
+    border: 1px solid #2b2828;
+    border-radius: 0px !important;
+    border-top: 1px solid #4c4b48;
+    border-bottom: 1px solid #0f0e0a;
+    background: #3f3e3a url(../img/noise.png) repeat !important;
 }
 
 .accordion-heading {
 	border-bottom: 0;
+	background: #2f2e2a url(../img/noise.png) repeat !important;
+
 }
 
 .accordion-inner {
-	border-top: 1px solid #e5e5e5;
+	border-top: 0px solid #e5e5e5;
 }
 
 .carousel {
