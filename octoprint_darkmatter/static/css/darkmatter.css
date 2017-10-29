@@ -682,6 +682,7 @@ button.close {
 	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
 	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
 	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	border-radius: 0;
 }
 
 .btn:hover,
@@ -730,7 +731,7 @@ button.close {
 .btn[disabled] {
 	cursor: default;
 	background-image: none;
-	opacity: 0.65;
+	opacity: 0.75;
 	filter: alpha(opacity=65);
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
@@ -2091,17 +2092,11 @@ a.badge:focus {
 }
 
 .progress {
-	background-color: #f7f7f7;
-	background-image: -moz-linear-gradient(top, #f5f5f5, #f9f9f9);
-	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f5f5f5), to(#f9f9f9));
-	background-image: -webkit-linear-gradient(top, #f5f5f5, #f9f9f9);
-	background-image: -o-linear-gradient(top, #f5f5f5, #f9f9f9);
-	background-image: linear-gradient(to bottom, #f5f5f5, #f9f9f9);
-	background-repeat: repeat-x;
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#fff9f9f9', GradientType=0);
+	background: #1f1e1a url(../img/stripes.svg) repeat !important;
 	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 	-moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	border-radius: 0;
 }
 
 .progress .bar {
@@ -2641,7 +2636,8 @@ div.subnav-fixed {
 
 .tabbable .nav-tabs,
 .tabbable .nav-tabs li.active > a {
-	border-color: transparent;
+	border-color: transparent !important;
+	background: #3f3e3a;
 }
 
 .breadcrumb {
@@ -2695,12 +2691,13 @@ div.subnav-fixed {
 .btn {
 	color: #24231e !important;
     text-shadow: 0 1px 1px rgba(255, 255, 255, 0.4) !important;
-    box-shadow: inset 0 0 24px 0 rgba(62, 62, 62, 0.77), 0 0 4px 0 rgba(236, 232, 219, 0.75);
-    border: 1px solid #969696 !important;
+    box-shadow: inset 0 0 24px 0 rgba(119, 119, 119, 0.77), 0 0 4px 0 rgba(255, 255, 255, 0.75), 0 0 10px 0 rgba(0,0,0,0.3);
+    border: 1px solid #b5b5b5 !important;
     background: #dbb013 !important;
     background: -webkit-radial-gradient(center, ellipse cover, rgb(224, 219, 207) 0%, rgba(224, 219, 204, 0.7) 100%) !important;
     background: -webkit-radial-gradient(center ellipse, rgb(224, 219, 207) 0%, rgba(224, 219, 204, 0.7) 100%) !important;
-    background: radial-gradient(ellipse at center, rgb(224, 219, 207) 0%, rgba(224, 219, 204, 0.7) 100%) !important;
+    background: radial-gradient(ellipse at center, #f5f5f5 0%, rgba(228, 225, 214, 0.7) 100%) !important;
+	border-radius: 0;
 }
 
 .btn:hover,
@@ -3116,7 +3113,7 @@ label {
 
 .well h1,
 .hero-unit h1 {
-	color: #
+	color: #d8d3c5;
 }
 
 .thumbnail {

@@ -4,7 +4,7 @@
 plugin_identifier = "darkmatter"
 plugin_package = "octoprint_darkmatter"
 plugin_name = "OctoPrint-DarkMatter"
-plugin_version = "0.1.12"
+plugin_version = "0.1.13"
 
 plugin_description = "DarkMatter theme adapted for OctoPrint"
 plugin_author = "chrono"
