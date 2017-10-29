@@ -21,7 +21,7 @@
 /*icon colour in the accordian menus (connection, state, files, etc)*/
 .octoprint-container .accordion-heading [class*=" icon-"],
 .octoprint-container .accordion-heading [class^=icon-] {
-	color: #ccc;
+	color: #fafafa;
 }
 /*the caret thing on the tab overflow dropdown when active*/
 .octoprint-container .nav>.dropdown.active>.dropdown-toggle>.caret  {
