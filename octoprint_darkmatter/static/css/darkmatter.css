@@ -2258,6 +2258,7 @@ a.badge:focus {
 .accordion-heading {
 	border-bottom: 0;
 	background: #2f2e2a url(../img/noise.png) repeat !important;
+	font-size: 16px;
 
 }
 
@@ -2268,6 +2269,16 @@ a.badge:focus {
 .accordion-heading > a:hover,
 .accordion-heading > a:focus {
 	text-decoration: none;
+}
+
+.accordion-heading .accordion-toggle {
+    padding: 8px 14px;
+}
+
+.accordion-heading [class^="icon-"]:before,
+.accordion-heading [class*=" icon-"]:before {
+    margin-right: 7px;
+    width: 15px;
 }
 
 .accordion-body {
@@ -2629,7 +2640,7 @@ div.subnav-fixed {
 
 .tabbable .nav-tabs,
 .tabbable .nav-tabs li.active > a {
-	border-color: #2f2e2a;
+	border-color: transparent;
 }
 
 .breadcrumb {
@@ -2681,25 +2692,17 @@ div.subnav-fixed {
 }
 
 .btn {
-	color: #ffffff;
-	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-	text-shadow: none;
-	background-color: #5c5c5c;
-	*background-color: #4d4d4d;
-	background-image: -moz-linear-gradient(top, #666666, #4d4d4d);
-	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#666666), to(#4d4d4d));
-	background-image: -webkit-linear-gradient(top, #666666, #4d4d4d);
-	background-image: -o-linear-gradient(top, #666666, #4d4d4d);
-	background-image: linear-gradient(to bottom, #666666, #4d4d4d);
-	background-repeat: repeat-x;
-	border-color: #4d4d4d #4d4d4d #262626;
-	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff666666', endColorstr='#ff4d4d4d', GradientType=0);
-	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-	-webkit-box-shadow: 1px 1px 2px #111111;
-	-moz-box-shadow: 1px 1px 2px #111111;
-	box-shadow: 1px 1px 2px #111111;
-	border-radius: 0;
+	color: #fafafa;
+	text-shadow: 0 1px 1px #000;
+    text-decoration: none;
+    border-width: 1px;
+    border-radius: 0;
+    border-style: solid;
+    border-color: #44433f;
+    border-bottom-color: #3a3935;
+    box-shadow: inset 0 0 24px 0 rgb(47, 46, 44), 0 0 3px 0 #000000;
+    background: -webkit-linear-gradient(top, rgb(73, 71, 68) 0%, rgb(47, 46, 44) 100%);
+    background: linear-gradient(to bottom, rgb(73, 71, 68) 0%, rgb(47, 46, 44) 100%);
 }
 
 .btn:hover,
@@ -3110,6 +3113,12 @@ label {
 	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
 	-moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+	background-color: #1f1e1a;
+}
+
+.well h1,
+.hero-unit h1 {
+	color: #
 }
 
 .thumbnail {
