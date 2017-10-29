@@ -2,21 +2,14 @@
 
 
 plugin_identifier = "darkmatter"
-
 plugin_package = "octoprint_darkmatter"
-
 plugin_name = "OctoPrint-DarkMatter"
+plugin_version = "0.1.5"
 
-plugin_version = "0.1.4"
-
-plugin_description = "DarkMatter theme adapted for octoprint."
-
+plugin_description = "DarkMatter theme adapted for OctoPrint"
 plugin_author = "chrono"
-
 plugin_author_email = ""
-
 plugin_url = "https://github.com/apollo-ng/OctoPrint-DarkMatter"
-
 plugin_license = "AGPLv3"
 
 plugin_requires = []
@@ -26,11 +19,8 @@ plugin_requires = []
 ### --------------------------------------------------------------------------------------------------------------------
 
 plugin_additional_data = []
-
 plugin_additional_packages = []
-
 plugin_ignored_packages = []
-
 additional_setup_parameters = {}
 
 ########################################################################################################################

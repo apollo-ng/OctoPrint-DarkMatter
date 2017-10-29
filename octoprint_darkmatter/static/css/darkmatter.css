@@ -26,11 +26,10 @@ body {
 
 .container {
 	width: 100% !important;
-	margin: 0 !important;
 }
 
 a {
-	color: #33b5e5;
+	color: #7eaa0f;
 	text-decoration: none;
 }
 
@@ -585,11 +584,11 @@ table {
 .dropdown-submenu:focus > a {
 	color: #ffffff;
 	background-color: #2ab2e4;
-	background-image: -moz-linear-gradient(top, #33b5e5, #1dade2);
-	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#33b5e5), to(#1dade2));
-	background-image: -webkit-linear-gradient(top, #33b5e5, #1dade2);
-	background-image: -o-linear-gradient(top, #33b5e5, #1dade2);
-	background-image: linear-gradient(to bottom, #33b5e5, #1dade2);
+	background-image: -moz-linear-gradient(top, #7eaa0f, #1dade2);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#7eaa0f), to(#1dade2));
+	background-image: -webkit-linear-gradient(top, #7eaa0f, #1dade2);
+	background-image: -o-linear-gradient(top, #7eaa0f, #1dade2);
+	background-image: linear-gradient(to bottom, #7eaa0f, #1dade2);
 	background-repeat: repeat-x;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff33b5e5', endColorstr='#ff1dade2', GradientType=0);
 }
@@ -600,11 +599,11 @@ table {
 	color: #ffffff;
 	text-decoration: none;
 	background-color: #2ab2e4;
-	background-image: -moz-linear-gradient(top, #33b5e5, #1dade2);
-	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#33b5e5), to(#1dade2));
-	background-image: -webkit-linear-gradient(top, #33b5e5, #1dade2);
-	background-image: -o-linear-gradient(top, #33b5e5, #1dade2);
-	background-image: linear-gradient(to bottom, #33b5e5, #1dade2);
+	background-image: -moz-linear-gradient(top, #7eaa0f, #1dade2);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#7eaa0f), to(#1dade2));
+	background-image: -webkit-linear-gradient(top, #7eaa0f, #1dade2);
+	background-image: -o-linear-gradient(top, #7eaa0f, #1dade2);
+	background-image: linear-gradient(to bottom, #7eaa0f, #1dade2);
 	background-repeat: repeat-x;
 	outline: 0;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff33b5e5', endColorstr='#ff1dade2', GradientType=0);
@@ -1004,7 +1003,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .btn-link {
-	color: #33b5e5;
+	color: #7eaa0f;
 	cursor: pointer;
 	border-color: transparent;
 }
@@ -1158,7 +1157,7 @@ input[type="submit"].btn.btn-mini {
 .nav-list > .active > a:focus {
 	color: #ffffff;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
-	background-color: #33b5e5;
+	background-color: #7eaa0f;
 }
 
 .nav-list .divider {
@@ -1198,7 +1197,7 @@ input[type="submit"].btn.btn-mini {
 .nav-pills > .active > a:hover,
 .nav-pills > .active > a:focus {
 	color: #ffffff;
-	background-color: #33b5e5;
+	background-color: #7eaa0f;
 }
 
 .nav-tabs.nav-stacked > li > a {
@@ -1212,8 +1211,8 @@ input[type="submit"].btn.btn-mini {
 }
 
 .nav .dropdown-toggle .caret {
-	border-top-color: #33b5e5;
-	border-bottom-color: #33b5e5;
+	border-top-color: #7eaa0f;
+	border-bottom-color: #7eaa0f;
 }
 
 .nav .dropdown-toggle:hover .caret,
@@ -1717,7 +1716,7 @@ input[type="submit"].btn.btn-mini {
 .pagination ul > li > a:focus,
 .pagination ul > .active > a,
 .pagination ul > .active > span {
-	background-color: #33b5e5;
+	background-color: #7eaa0f;
 }
 
 .pagination ul > .active > a,
@@ -1947,7 +1946,7 @@ input[type="submit"].btn.btn-mini {
 
 a.thumbnail:hover,
 a.thumbnail:focus {
-	border-color: #33b5e5;
+	border-color: #7eaa0f;
 	-webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
 	-moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
 	box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
@@ -2251,17 +2250,29 @@ a.badge:focus {
     border-radius: 0px !important;
     border-top: 1px solid #4c4b48;
     border-bottom: 1px solid #0f0e0a;
-    background: #3f3e3a url(../img/noise.png) repeat !important;
+
 }
 
 .accordion-heading {
 	border-bottom: 0;
 	background: #2f2e2a url(../img/noise.png) repeat !important;
+}
 
+.accordion-body {
+	border-bottom: 0;
+	background: #2f2e2a url(../img/noise.png) repeat !important;
 }
 
 .accordion-inner {
 	border-top: 0px solid #e5e5e5;
+
+	strong {
+		color: #d8d3c5 !important;
+	}
+}
+
+.span4 {
+    width: 250px;
 }
 
 .carousel {
@@ -2394,7 +2405,7 @@ hr {
 .navbar .nav > li > a:hover,
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover {
-	border-bottom: 1px solid #33b5e5;
+	border-bottom: 1px solid #7eaa0f;
 }
 
 .navbar .nav > .active > a,
@@ -2445,17 +2456,17 @@ hr {
 	}
 
 	.navbar .nav-collapse .nav li > a:hover {
-		background-color: #33b5e5;
+		background-color: #7eaa0f;
 		border: none;
 	}
 
 	.navbar .nav-collapse .nav .active > a {
-		background-color: #33b5e5;
+		background-color: #7eaa0f;
 		border: none;
 	}
 
 	.navbar .nav-collapse .dropdown-menu a:hover {
-		background-color: #33b5e5;
+		background-color: #7eaa0f;
 	}
 
 	.navbar .nav-collapse .navbar-form,
@@ -2506,7 +2517,7 @@ div.subnav .nav > li:first-child > a:hover {
 	color: #ffffff;
 	background: transparent;
 	border: none;
-	border-bottom: 1px solid #33b5e5;
+	border-bottom: 1px solid #7eaa0f;
 }
 
 div.subnav .nav li.nav-header {
@@ -2525,7 +2536,7 @@ div.subnav-fixed {
 .nav-tabs li.active > a,
 .nav-tabs li.active > a:hover {
 	color: #ffffff;
-	background-color: #33b5e5;
+	background-color: #7eaa0f;
 	border-color: transparent;
 }
 
@@ -2540,7 +2551,7 @@ div.subnav-fixed {
 
 .nav-pills li > a:hover {
 	color: #ffffff;
-	background-color: #33b5e5;
+	background-color: #7eaa0f;
 }
 
 .nav-pills li.disabled > a {
@@ -2561,7 +2572,7 @@ div.subnav-fixed {
 
 .nav-list li > a:hover {
 	color: #ffffff;
-	background-color: #33b5e5;
+	background-color: #7eaa0f;
 }
 
 .nav-list .nav-header {
@@ -2580,7 +2591,7 @@ div.subnav-fixed {
 .nav-stacked li > a:hover,
 .nav-stacked li.active > a {
 	color: #ffffff;
-	background-color: #33b5e5;
+	background-color: #7eaa0f;
 }
 
 .tabbable .nav-tabs,
@@ -2603,7 +2614,7 @@ div.subnav-fixed {
 }
 
 .breadcrumb li > a {
-	color: #33b5e5;
+	color: #7eaa0f;
 	text-shadow: none;
 }
 
@@ -2628,7 +2639,7 @@ div.subnav-fixed {
 
 .pager li > a:hover,
 .pager li > span:hover {
-	background-color: #33b5e5;
+	background-color: #7eaa0f;
 }
 
 .pager .disabled a,
@@ -2959,7 +2970,7 @@ label {
 
 .table tbody tr.info td {
 	color: #ffffff;
-	background-color: #33b5e5;
+	background-color: #7eaa0f;
 }
 
 .table tbody tr.warning td {
@@ -3104,7 +3115,7 @@ label {
 
 	.subnav .nav > li + li > a:hover,
 	.subnav .nav > li:first-child > a:hover {
-		background-color: #33b5e5;
+		background-color: #7eaa0f;
 		border-bottom: 0;
 	}
 
