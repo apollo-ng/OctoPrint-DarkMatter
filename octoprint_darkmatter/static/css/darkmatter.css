@@ -24,10 +24,6 @@ body {
 	background-color: #060606;
 }
 
-.container {
-	width: 100% !important;
-}
-
 a {
 	color: #7eaa0f;
 	text-decoration: none;
@@ -2281,6 +2277,7 @@ a.badge:focus {
 
 .span4 {
     width: 30%;
+	max-width: 250px;
 	margin-left: 0;
 }
 
@@ -3135,7 +3132,9 @@ label {
 }
 
 .octoprint-container {
-margin: 0 !important
+	margin: 0 !important;
+	width: 100% !important;
+	min-width: 960px !important;
 }
 
 .octoprint-container .tab-content {
