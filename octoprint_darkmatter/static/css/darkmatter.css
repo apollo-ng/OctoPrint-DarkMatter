@@ -2279,6 +2279,7 @@ a.badge:focus {
 .accordion-heading [class*=" icon-"]:before {
     margin-right: 7px;
     width: 15px;
+	color: #6d8006;
 }
 
 .accordion-body {
@@ -2692,17 +2693,14 @@ div.subnav-fixed {
 }
 
 .btn {
-	color: #fafafa;
-	text-shadow: 0 1px 1px #000;
-    text-decoration: none;
-    border-width: 1px;
-    border-radius: 0;
-    border-style: solid;
-    border-color: #44433f;
-    border-bottom-color: #3a3935;
-    box-shadow: inset 0 0 24px 0 rgb(47, 46, 44), 0 0 3px 0 #000000;
-    background: -webkit-linear-gradient(top, rgb(73, 71, 68) 0%, rgb(47, 46, 44) 100%);
-    background: linear-gradient(to bottom, rgb(73, 71, 68) 0%, rgb(47, 46, 44) 100%);
+	color: #24231e !important;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.4) !important;
+    box-shadow: inset 0 0 24px 0 rgba(62, 62, 62, 0.77), 0 0 4px 0 rgba(236, 232, 219, 0.75);
+    border: 1px solid #969696 !important;
+    background: #dbb013 !important;
+    background: -webkit-radial-gradient(center, ellipse cover, rgb(224, 219, 207) 0%, rgba(224, 219, 204, 0.7) 100%) !important;
+    background: -webkit-radial-gradient(center ellipse, rgb(224, 219, 207) 0%, rgba(224, 219, 204, 0.7) 100%) !important;
+    background: radial-gradient(ellipse at center, rgb(224, 219, 207) 0%, rgba(224, 219, 204, 0.7) 100%) !important;
 }
 
 .btn:hover,
