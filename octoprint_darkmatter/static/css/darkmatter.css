@@ -3177,9 +3177,6 @@ label {
 	padding: 0 !important;
 }
 
-.octoprint-container .tab-content h1 {
-    color: #d8d3c5;
-}
 
 @media (max-width:768px) {
 	div.subnav .nav > li + li > a,
