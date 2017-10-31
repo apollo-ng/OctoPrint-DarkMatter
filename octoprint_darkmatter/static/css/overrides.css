@@ -40,10 +40,14 @@
 /*print cancel button disabled*/
 #job_cancel.btn.disabled, #job_cancel.btn[disabled], #job_cancel.btn:hover[disabled] {
 	color: #fff;
-	opacity: 0.65;
-	background-color: #5c5c5c;
-	border: 1px solid #5c5c5c;
+	opacity: 0.35;
+	background: #6f6e6a !important;
+	border: 1px solid #9f9e9a;
     background-image: none;
+}
+
+.btn {
+	font-family: "DIN" !important;
 }
 
 /*general table hover colour*/
@@ -196,14 +200,17 @@ select[multiple] {
 }
 
 .slider .slider-selection {
-    color: #fbeeee;
-    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
-    background-color: #006dcc;
-    border-color: #04c #04c #002a80;
-    border-color: rgba(0,0,0,.1) rgba(0,0,0,.1) rgba(0,0,0,.25);
+	background-color: transparent;
+    background-image: -moz-linear-gradient(top,rgba(206, 241, 23, 0.58),rgba(139, 169, 20, 0.65));
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(rgba(206, 241, 23, 0.58)),to(rgba(139, 169, 20, 0.65)));
+    background-image: -webkit-linear-gradient(top,rgba(206, 241, 23, 0.58),rgba(139, 169, 20, 0.65));
+    background-image: -o-linear-gradient(top,rgba(206, 241, 23, 0.58),rgba(139, 169, 20, 0.65));
+	background-image: linear-gradient(to bottom,rgba(206, 241, 23, 0.58),rgba(139, 169, 20, 0.65));
+    background-repeat: repeat-x;
+	border: 1px solid rgba(209, 255, 11, 0.64);
 	border-radius: 0;
 }
 
 .slider .slider-handle.round {
-    background-color: #6d8006;
+    background: #f5f5f5 !important;
 }
