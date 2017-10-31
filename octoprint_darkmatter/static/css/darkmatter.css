@@ -3203,11 +3203,10 @@ label {
 	padding: 0 !important;
 }
 
-.js-plotly-plot {
-	background: #1f1e1a url(../img/stripes.svg) repeat !important;
+.flot-base {
+	background: transparent;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .16), inset 0 0 36px 0 #000 !important;
-    border: 1px solid #3a3937;
-    padding-left: 12px;
+
 }
 
 @media (max-width:768px) {
