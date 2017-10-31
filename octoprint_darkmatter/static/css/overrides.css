@@ -52,6 +52,11 @@
     font-family: "DIN" !important;
 }
 
+btn:first-child,
+btn:last-child {
+    border-radius: 0 !important;
+}
+
 .btn-group>.btn.active {
     color: #fafafa !important;
     text-shadow: 0 1px 1px rgba(65, 65, 65, 0.4) !important;
