@@ -30,13 +30,14 @@
 }
 
 /* state print buttons*/
-#job_cancel, #job_cancel:hover, #job_cancel:focus, #job_cancel:active,
+#job_cancel, #job_cancel:hover, #job_cancel:focus, #job_cancel:active {
 	color: #fff;
 	background-color: #bd362f;
     background-image: linear-gradient(to bottom,#ee5f5b,#bd362f);
     background-repeat: repeat-x;
     border: 1px solid #bd362f;
 }
+
 /*print cancel button disabled*/
 #job_cancel.btn.disabled, #job_cancel.btn[disabled], #job_cancel.btn:hover[disabled],
 #job_pause.btn.disabled, #job_pause.btn[disabled], #job_pause.btn:hover[disabled],
