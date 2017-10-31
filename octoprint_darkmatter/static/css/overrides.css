@@ -52,8 +52,7 @@
     font-family: "DIN" !important;
 }
 
-btn:first-child,
-btn:last-child {
+.btn:first-child, .btn:last-child {
     border-radius: 0 !important;
 }
 
