@@ -2,37 +2,36 @@
 
 /*the "Files" spanner menu dropdown*/
 .octoprint-container .accordion-heading .accordion-heading-button a {
-	color: #e0e0e0;
+    color: #e0e0e0;
 }
 
 /*the "Files" spanner menu dropdown highlight colour*/
 .octoprint-container .accordion-heading .accordion-heading-button a:hover {
-	color: #fff;
-	background-color: #2ab2e4;
+    color: #fffefa;
+    background-color: rgba(95, 115, 35, 0.4);
 }
 
 /*other drop down menus like the tab overflow menu*/
 .dropdown-menu > li > a {
-	color: #e0e0e0;
+    color: #e0e0e0;
 }
 
 .dropdown-submenu > a:after {
-	border-left-color: #e0e0e0;
+    border-left-color: #e0e0e0;
 }
-
 
 /*close button*/
 .close,
 .close:hover {
-	color: #f00;
-	text-shadow: 0 1px 0 #555;
-	opacity: 0.7;
+    color: #f00;
+    text-shadow: 0 1px 0 #555;
+    opacity: 0.7;
 }
 
 /* state print buttons*/
 #job_cancel, #job_cancel:hover, #job_cancel:focus, #job_cancel:active {
-	color: #fff;
-	background-color: #bd362f;
+    color: #fff;
+    background-color: #bd362f;
     background-image: linear-gradient(to bottom,#ee5f5b,#bd362f);
     background-repeat: repeat-x;
     border: 1px solid #bd362f;
@@ -42,7 +41,7 @@
 #job_cancel.btn.disabled, #job_cancel.btn[disabled], #job_cancel.btn:hover[disabled],
 #job_pause.btn.disabled, #job_pause.btn[disabled], #job_pause.btn:hover[disabled],
 #job_print.btn.disabled, #job_print.btn[disabled], #job_print.btn:hover[disabled] {
-	opacity: 0.6;
+    opacity: 0.6;
     background: #5d5c59 !important;
     border: 1px solid #6d6c69 !important;
     background-image: none;
@@ -50,11 +49,11 @@
 }
 
 .btn {
-	font-family: "DIN" !important;
+    font-family: "DIN" !important;
 }
 
 .btn-group>.btn.active {
-	color: #fafafa !important;
+    color: #fafafa !important;
     text-shadow: 0 1px 1px rgba(65, 65, 65, 0.4) !important;
     box-shadow: inset 0 0 24px 0 #606f11, 0 0 3px 0 #9db134, 0 0 12px 0 rgba(0,0,0,0.5) !important;
     border: 1px solid rgb(121, 144, 55) !important;
@@ -67,37 +66,37 @@
 /*general table hover colour*/
 .table-hover tbody tr:hover td,
 .table-hover tbody tr:hover th {
-	color: #ddd;
+    color: #ddd;
 }
 
 /*gcode "files" hover colour*/
 #files .gcode_files .entry:hover {
-	color: #6d8006;
+    color: #6d8006;
 }
 
 /*pagination buttons*/
 .pagination ul > .active > a,
 .pagination ul > .active > span {
-	color: #000000;
+    color: #000000;
 }
 
 /*fix for weirdness with active tab being selected*/
 .nav-tabs > .active > a,
 .nav-tabs > .active > a:hover,
 .nav-tabs > .active > a:focus {
-	color: #ffffff;
-	background-color: #33b5e5;
+    color: #ffffff;
+    background-color: #33b5e5;
 }
 
 /*headings in the tab sections (not actual tab names)*/
 .octoprint-container .tab-content h1 {
-	color: #d8d3c5;
+    color: #d8d3c5;
 }
 
 /*Border around active tab + top of tab cluster*/
 .tabbable .nav-tabs,
 .tabbable .nav-tabs li.active > a {
-	border-color: #ddd;
+    border-color: #ddd;
 }
 
 
@@ -111,13 +110,13 @@
 /*temperature graph background*/
 div#temperature-graph {
     border-radius: 0px;
-	background: #1f1e1a url(../img/stripes.svg) repeat !important;
-	border: 1px solid #3a3937;
+    background: #1f1e1a url(../img/stripes.svg) repeat !important;
+    border: 1px solid #3a3937;
 }
 
 /*temp graph legend text*/
 .yAxis.y1Axis, .xAxis.x1Axis {
-    color: black !important;
+    color: #d8d3c5 !important;
 }
 
 /*highlighted tabs border colour*/
@@ -128,17 +127,17 @@ div#temperature-graph {
 /*input too hard to read fix*/
 input:-moz-placeholder,
 textarea:-moz-placeholder {
-  color: #444 !important;
+    color: #444 !important;
 }
 
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  color: #444 !important;
+    color: #444 !important;
 }
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  color: #444 !important;
+    color: #444 !important;
 }
 
 .input-append .add-on, .input-prepend .add-on {
@@ -184,18 +183,18 @@ input[type="file"] {
 }
 /*previous navbar min width fix still works on regular browsers but caused touchui to have to scroll, this is my dirty workaround*/
 #touch .navbar {
-	min-width: 1px;
+    min-width: 1px;
 }
 
 /*settings pages drop down list*/
 #touch .nav-list li > a:hover {
-	color: #fff;
-	background-color: #000000;
+    color: #fff;
+    background-color: #000000;
 }
 
 /*terminal page filter labels*/
 #touch #terminal-filterpanel label {
-	color: #ddd;
+    color: #ddd;
 }
 
 /*fix for multiple item select boxes being hard to read*/
@@ -205,24 +204,24 @@ select[multiple] {
 }
 
 .slider .slider-track {
-	background: #1f1e1a url(../img/stripes.svg) repeat !important;
-	-webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.8);
-	-moz-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.8);
-	box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.8), 0 0 4px rgba(0, 0, 0, 0.4);
-	border-radius: 0;
-	border: 1px solid #4f4e4a;
+    background: #1f1e1a url(../img/stripes.svg) repeat !important;
+    -webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.8);
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.8), 0 0 4px rgba(0, 0, 0, 0.4);
+    border-radius: 0;
+    border: 1px solid #4f4e4a;
 }
 
 .slider .slider-selection {
-	background-color: transparent;
+    background-color: transparent;
     background-image: -moz-linear-gradient(top,rgba(206, 241, 23, 0.58),rgba(139, 169, 20, 0.65));
     background-image: -webkit-gradient(linear,0 0,0 100%,from(rgba(206, 241, 23, 0.58)),to(rgba(139, 169, 20, 0.65)));
     background-image: -webkit-linear-gradient(top,rgba(206, 241, 23, 0.58),rgba(139, 169, 20, 0.65));
     background-image: -o-linear-gradient(top,rgba(206, 241, 23, 0.58),rgba(139, 169, 20, 0.65));
-	background-image: linear-gradient(to bottom,rgba(206, 241, 23, 0.58),rgba(139, 169, 20, 0.65));
+    background-image: linear-gradient(to bottom,rgba(206, 241, 23, 0.58),rgba(139, 169, 20, 0.65));
     background-repeat: repeat-x;
-	border: 1px solid rgba(209, 255, 11, 0.64);
-	border-radius: 0;
+    border: 1px solid rgba(209, 255, 11, 0.64);
+    border-radius: 0;
 }
 
 .slider .slider-handle.round {
