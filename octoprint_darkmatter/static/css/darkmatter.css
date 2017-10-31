@@ -1692,11 +1692,22 @@ input[type="submit"].btn.btn-mini {
 	background-color: #040405 \9;
 }
 
-
-#navbar_plugin_simpleemergencystop i {
-	color: yellow !important;
+#navbar_plugin_simpleemergencystop {
+	background: rgba(188, 0, 0, 0.21);
+    border-left: 1px solid rgba(255, 0, 0, 0.17);
+	float: right;
 }
 
+#navbar_plugin_simpleemergencystop a {
+	background: -moz-radial-gradient(center, ellipse cover, rgba(188,0,0,1) 0%, rgba(157,1,24,0) 70%, rgba(143,2,34,0) 100%) !important;
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(188,0,0,1) 0%,rgba(157,1,24,0) 70%,rgba(143,2,34,0) 100%) !important;
+	background: radial-gradient(ellipse at center, rgba(188,0,0,1) 0%,rgba(157,1,24,0) 70%,rgba(143,2,34,0) 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc0000', endColorstr='#008f0222',GradientType=1 ) !important;
+}
+
+#navbar_plugin_simpleemergencystop i {
+	color: #ffd600 !important;
+}
 
 .breadcrumb {
 	list-style: none;
@@ -2458,6 +2469,11 @@ hr {
 	text-shadow: none;
 }
 
+.navbar .nav > li {
+	border-left: 1px solid #5f5e5a;
+    background: rgba(127, 126, 122, 0.22);
+}
+
 .navbar .nav > li > a {
 	border-bottom: 1px solid transparent;
 }
@@ -2718,7 +2734,13 @@ div.subnav-fixed {
     background: -webkit-radial-gradient(center, ellipse cover, rgb(224, 219, 207) 0%, rgba(224, 219, 204, 0.7) 100%) !important;
     background: -webkit-radial-gradient(center ellipse, rgb(224, 219, 207) 0%, rgba(224, 219, 204, 0.7) 100%) !important;
     background: radial-gradient(ellipse at center, #f5f5f5 0%, rgba(228, 225, 214, 0.7) 100%) !important;
+	font-family: "DIN" !important;
+	font-size: 16px;
 	border-radius: 0;
+}
+
+#state .btn {
+	font-size: 19px;
 }
 
 .btn:hover,
@@ -3181,7 +3203,7 @@ label {
 	padding: 0 !important;
 }
 
-js-plotly-plot {
+.js-plotly-plot {
 	background: #1f1e1a url(../img/stripes.svg) repeat !important;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .16), inset 0 0 36px 0 #000 !important;
     border: 1px solid #3a3937;
