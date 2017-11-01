@@ -3255,6 +3255,8 @@ label {
     width: 40px !important;
     text-transform: uppercase;
     border-right: none;
+    border-color: #504e4a;
+    font-family: "DIN";
 }
 
 #temperature-table .input-append .add-on,
@@ -3266,6 +3268,7 @@ label {
     padding: 4px 9px 4px 0px;
     font-size: 20px;
     border-radius: 0;
+    border-color: #504e4a;
 }
 
 #temperature-table td.temperature_actual {
@@ -3292,6 +3295,8 @@ label {
 #temperature-table .uneditable-input {
     background: #1f1e1a;
     color: #fffefa;
+    border-right: none;
+    font-size: 20px;
 }
 
 @media (max-width:768px) {
