@@ -3282,7 +3282,16 @@ label {
 
 #temperature-table .btn {
     font-size: 17px;
+}
 
+#temperature-table .dropdown-toggle,
+#temperature-table .uneditable-input {
+    border-radius: 0 !important;
+}
+
+#temperature-table .uneditable-input {
+    background: #1f1e1a;
+    color: #fffefa;
 }
 
 @media (max-width:768px) {
