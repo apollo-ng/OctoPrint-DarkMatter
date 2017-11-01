@@ -446,11 +446,25 @@ textarea[readonly] {
 #control .box {
     width: 40px;
     height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+#control h1 {
+    text-align: center;
 }
 
 #control .btn-group>.btn {
     font-size: 16px;
     min-width: 53px;
+}
+
+#control-jog-extrusion {
+    min-width: 120px;
+}
+
+#control-jog-general {
+    min-width: 120px;
 }
 
 input:focus:invalid,

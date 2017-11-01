@@ -78,6 +78,11 @@
     color: #6d8006;
 }
 
+#files .gcode_files .entry .action-buttons {
+    bottom: 0px;
+    right: 0px;
+}
+
 /*pagination buttons*/
 .pagination ul > .active > a,
 .pagination ul > .active > span {
@@ -112,7 +117,8 @@
 }
 
 /*temperature graph background*/
-div#temperature-graph {
+div#temperature-graph,
+div#webcam_container {
     border-radius: 0px;
     background: #1f1e1a url(../img/stripes.svg) repeat !important;
     border: 1px solid #3a3937;
