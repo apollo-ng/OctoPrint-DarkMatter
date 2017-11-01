@@ -3,12 +3,14 @@
 /*the "Files" spanner menu dropdown*/
 .octoprint-container .accordion-heading .accordion-heading-button a {
     color: #e0e0e0;
+    text-shadow: 0 1px 0 #1f1e1a !important;
 }
 
 /*the "Files" spanner menu dropdown highlight colour*/
 .octoprint-container .accordion-heading .accordion-heading-button a:hover {
     color: #fffefa;
     background-color: rgba(95, 115, 35, 0.4);
+    border-radius: 0 !important;
 }
 
 /*other drop down menus like the tab overflow menu*/
@@ -18,6 +20,11 @@
 
 .dropdown-submenu > a:after {
     border-left-color: #e0e0e0;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+    background: rgba(95, 115, 35, 0.4) !important;
 }
 
 /*close button*/
