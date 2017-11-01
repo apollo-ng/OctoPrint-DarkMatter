@@ -2709,8 +2709,8 @@ div.subnav-fixed {
 
 .tabbable .nav-tabs,
 .tabbable .nav-tabs li.active > a {
-    border-color: transparent !important;
-    background: #2f2e2a url(../img/noise.png) repeat !important;
+    /*border-color: transparent !important;
+     background: #2f2e2a url(../img/noise.png) repeat !important; */
     font-size: 16px;
 }
 
@@ -3250,26 +3250,39 @@ label {
 #temperature-table input {
     color: #e5e5e5;
     background: #1f1e1a;
+    text-shadow: 0 1px 0 #000;
     font-size: 20px;
-    width: 40px;
+    width: 40px !important;
+    text-transform: uppercase;
+    border-right: none;
 }
 
-#temperature-table .input-append .add-on, .input-prepend .add-on {
+#temperature-table .input-append .add-on,
+#temperature-table .input-prepend .add-on {
     color: #e5e5e5;
     text-shadow: 0 1px 0 #000;
     background: #1f1e1a;
     width: 10px;
     padding: 4px 9px 4px 0px;
     font-size: 20px;
+    border-radius: 0;
 }
 
 #temperature-table td.temperature_actual {
     font-size: 20px;
+    color: #d8d3c5 !important;
     background: #1f1e1a;
 }
 
 #temperature-table th {
+    color: #fafafa;
+    text-shadow: 0 1px 0 #000;
     background: #2f2e2a url(../img/noise.png) repeat !important;
+}
+
+#temperature-table .btn {
+    font-size: 17px;
+
 }
 
 @media (max-width:768px) {
