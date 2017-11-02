@@ -455,7 +455,7 @@ textarea[readonly] {
 }
 
 #control .btn-group>.btn {
-    font-size: 16px;
+    font-size: 18px;
     min-width: 53px;
 }
 
@@ -465,6 +465,7 @@ textarea[readonly] {
 
 #control-jog-extrusion button {
     font-size: 20px;
+    height: 40px;
 }
 
 #control-jog-general {
@@ -481,11 +482,11 @@ textarea[readonly] {
 }
 
 #control-jog-feedrate slider {
-    width: 207px;
+    width: 207px !important;
 }
 
 #control-jog-feedrate button {
-    width: 210px;
+    width: 209px !important;
 }
 
 input:focus:invalid,
