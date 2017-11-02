@@ -463,8 +463,29 @@ textarea[readonly] {
     min-width: 120px;
 }
 
+#control-jog-extrusion button {
+    font-size: 20px;
+}
+
 #control-jog-general {
     min-width: 120px;
+}
+
+#jog_distance {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#jog_distance button {
+    height: 35px;
+}
+
+#control-jog-feedrate slider {
+    width: 207px;
+}
+
+#control-jog-feedrate button {
+    width: 210px;
 }
 
 input:focus:invalid,
@@ -1717,7 +1738,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 #navbar .navbar-inner .nav>li>a:hover {
-    background-color: rgba(222, 222, 222, 0.09) !important;
+    background: rgba(222, 222, 222, 0.09) !important;
 }
 
 #navbar_plugin_simpleemergencystop {
@@ -2507,7 +2528,7 @@ hr {
 }
 
 .navbar .nav > li {
-    border-left: 1px solid #5f5e5a;
+    border-left: 1px solid #4a4947;
     background: rgba(127, 126, 122, 0.22);
 }
 
