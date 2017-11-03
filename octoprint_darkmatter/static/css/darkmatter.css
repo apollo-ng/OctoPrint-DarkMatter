@@ -505,7 +505,8 @@ textarea[readonly] {
     color: #fffefa;
 }
 
-#control-jog-extrusion .input-append button:nth-child(2) {
+#control-jog-extrusion button:nth-of-type(3) {
+    margin-top: 30px;
     height: 35px !important;
 }
 
@@ -788,9 +789,9 @@ button.close {
 .btn.active,
 .btn.disabled,
 .btn[disabled] {
-    color: #2f2e2a;
-    background-color: #595959;
-    *background-color: #4d4d4d;
+    color: #171615;
+    background-color: #3f3e3a;
+    *background-color: #3f3e3a;
 }
 
 .btn:active,
@@ -827,12 +828,11 @@ button.close {
 .btn.disabled,
 .btn[disabled] {
     cursor: default;
-    background-image: none;
-    opacity: 0.75;
-    filter: alpha(opacity=65);
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
+    color: #171615;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0 0 24px 0 rgb(84, 81, 81), 0 0 8px 0 rgba(0, 0, 0, 0.51), 0 0 10px 0 rgba(0,0,0,0.3);
+    border: 1px solid #635f5f;
+    background: #3f3e3a;
 }
 
 .btn-block {
