@@ -447,7 +447,11 @@ textarea[readonly] {
     width: 40px;
     height: 40px;
     padding-left: 10px;
+}
+
+.jog-panel button {
     font-size: 20px;
+    height: 40px !important;
 }
 
 #control h1 {
@@ -463,11 +467,6 @@ textarea[readonly] {
     min-width: 120px;
 }
 
-#control-jog-extrusion button {
-    font-size: 20px;
-    height: 40px;
-}
-
 #control-jog-general {
     min-width: 120px;
 }
@@ -478,7 +477,7 @@ textarea[readonly] {
 }
 
 #jog_distance button {
-    height: 35px;
+    height: 35px !important;
 }
 
 #control-jog-feedrate slider {
