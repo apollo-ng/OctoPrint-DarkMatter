@@ -463,16 +463,29 @@ textarea[readonly] {
 }
 
 #control-jog-extrusion .slider {
-    width: 207px !important;
+    width: 142px !important;
+}
+
+#control-jog-extrusion .dropdown-toggle {
+    font-size: 20px;
 }
 
 #control-jog-extrusion .input-append {
     height: 40px;
+    margin-top: 20px;
 }
 
 #control-jog-extrusion .input-append input {
-    height: 40px;
     width: 95px;
+}
+
+#control-jog-extrusion .input-append input,
+#control-jog-extrusion .input-append .add-on {
+    height: 30px;
+    border-radius: 0;
+    background: #2f2e2a;
+    color: #d8d3c5;
+    font-size: 18px;
 }
 
 #control-jog-general {
@@ -481,6 +494,10 @@ textarea[readonly] {
 
 #control-jog-xy h1 {
     width: 142px;
+}
+
+#control-jog-z h1 {
+    width: 40px;
 }
 
 #jog_distance {
