@@ -458,17 +458,29 @@ textarea[readonly] {
     text-align: center;
 }
 
-#control .btn-group>.btn {
-    font-size: 18px;
-    min-width: 53px;
-}
-
 #control-jog-extrusion {
     min-width: 120px;
 }
 
+#control-jog-extrusion .slider {
+    width: 207px !important;
+}
+
+#control-jog-extrusion .input-append {
+    height: 40px;
+}
+
+#control-jog-extrusion .input-append input {
+    height: 40px;
+    width: 95px;
+}
+
 #control-jog-general {
     min-width: 120px;
+}
+
+#control-jog-xy h1 {
+    width: 142px;
 }
 
 #jog_distance {
@@ -478,9 +490,11 @@ textarea[readonly] {
 
 #jog_distance button {
     height: 35px !important;
+    font-size: 20px !important;
+    min-width: 53px !important;
 }
 
-#control-jog-feedrate slider {
+#control-jog-feedrate .slider {
     width: 207px !important;
 }
 
