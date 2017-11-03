@@ -471,21 +471,27 @@ textarea[readonly] {
 }
 
 #control-jog-extrusion .input-append {
-    height: 40px;
-    margin-top: 20px;
-}
-
-#control-jog-extrusion .input-append input {
-    width: 95px;
+    height: 39px;
+    margin-top: 19px;
+    border: 1px solid #4f4e4a;
+    background: #1f1e1a;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.8), 0 0 8px rgba(0, 0, 0, 0.4);
 }
 
 #control-jog-extrusion .input-append input,
 #control-jog-extrusion .input-append .add-on {
     height: 30px;
     border-radius: 0;
-    background: #2f2e2a;
+    border: none;
+    background: transparent;
     color: #d8d3c5;
     font-size: 18px;
+}
+
+#control-jog-extrusion .input-append input {
+    width: 95px;
+    font-size: 25px;
+    color: #fffefa;
 }
 
 #control-jog-general {
