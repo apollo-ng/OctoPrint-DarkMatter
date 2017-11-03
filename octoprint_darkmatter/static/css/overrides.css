@@ -27,6 +27,10 @@
     background: rgba(95, 115, 35, 0.4) !important;
 }
 
+.input-mini {
+    font-family: "DIN" !important;
+}
+
 /*close button*/
 .close,
 .close:hover {
