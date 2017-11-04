@@ -467,6 +467,8 @@ textarea[readonly] {
 
 #control-jog-extrusion {
     min-width: 120px;
+    background: #2f2e2a url(../img/extruder.svg);
+    background-position:
 }
 
 #control-jog-extrusion .slider {
@@ -2775,6 +2777,7 @@ div.subnav-fixed {
     font-size: 16px;
     background: #3f3e3a;
     border: none;
+    border-color: #4f4e4a;
     border-left: 1px solid #4f4e4a;
     border-right: 1px solid #4f4e4a;
 }
