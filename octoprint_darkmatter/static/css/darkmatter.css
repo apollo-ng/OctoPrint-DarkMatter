@@ -2714,9 +2714,10 @@ div.subnav-fixed {
 .nav-tabs li > a:hover,
 .nav-tabs li.active > a,
 .nav-tabs li.active > a:hover {
-    color: #ffffff;
-    background-color: #7eaa0f;
+    color: #fffefa;
+    background-color: #6d8006;
     border-color: transparent;
+    text-shadow: 0 1px 0 #1f1e1a !important;
 }
 
 .nav-tabs li.disabled > a {
