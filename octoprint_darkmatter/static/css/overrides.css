@@ -42,10 +42,13 @@
 /* state print buttons*/
 #job_cancel, #job_cancel:hover, #job_cancel:focus, #job_cancel:active {
     color: #fff;
-    background-color: #bd362f;
-    background-image: linear-gradient(to bottom,#ee5f5b,#bd362f);
-    background-repeat: repeat-x;
-    border: 1px solid #bd362f;
+    box-shadow: inset 0 0 14px 0 #82290e, 0 0 3px 0 #db4213;
+    border: 1px solid #b73813;
+    background: #db4213;
+    background: -moz-radial-gradient(center, ellipse cover, #db4213 0%, #c93612 100%) !important;
+    background: -webkit-radial-gradient(center, ellipse cover, #db4213 0%,#c93612 100%) !important;
+    background: radial-gradient(ellipse at center, #db4213 0%,#c93612 100%) !important;
+    box-shadow: inset 0 0 24px 0 rgba(111, 27, 27, 0.77), 0 0 4px 0 rgba(228, 36, 36, 0.75), 0 0 10px 0 rgba(0,0,0,0.3);
 }
 
 /*print cancel button disabled*/
